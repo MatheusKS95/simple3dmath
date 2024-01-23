@@ -2,17 +2,19 @@
 Extremely basic 3D math library for OpenGL and related APIs/libraries/etc.
 I made this for a game/game engine that "failed", but this math code works so why not share it here?
 
-As far as testing goes, it worked with OpenGL and sokol-gfx. Not tested with other stuff (such as Vulkan or wgpu-native).
+As far as testing goes, it worked with OpenGL. Not tested with other stuff (such as Vulkan or wgpu-native).
 
 ## What this does
 Math stuff needed for 3D rendering such as vectors, matrices, quaternions...
 
 ## What this does not
-This is way smaller than CGLM and linmath.h. Probably doesn't do very advanced stuff that you might need.
+This is way smaller than CGLM, linmath.h and/or HandmadeMath. Probably doesn't do very advanced stuff that you might need.
 
 It also doesn't implement SIMD neither similar optimizations.
 
 Use at your own risk.
+
+It's preferable that you use HandmadeMath if you want to work with tools like sokol-gfx.
 
 ## How to use
 You can simply copy-paste the header and implementation file into your project, and it's ready to use. No need for awkward build systems like CMake or Premake and also no need for stuff like ```#define SOMETHING_IMPLEMENTATION``` like header-only libraries often require.
