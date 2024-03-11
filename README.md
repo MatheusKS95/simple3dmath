@@ -1,4 +1,7 @@
 # Matheus' Simple 3D Math
+
+## Do not use in production, bugs exists
+
 Extremely basic 3D math library for OpenGL and related APIs/libraries/etc.
 I made this for a game/game engine that "failed", but this math code works so why not share it here?
 
